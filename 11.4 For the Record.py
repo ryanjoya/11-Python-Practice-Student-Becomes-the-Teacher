@@ -19,17 +19,8 @@ tyler = {
 
 students = [lloyd, alice, tyler]
 
-print lloyd["name"]
-print lloyd["homework"]
-print lloyd["quizzes"]
-print lloyd["tests"]
-
-print alice["name"]
-print alice["homework"]
-print alice["quizzes"]
-print alice["tests"]
-
-print tyler["name"]
-print tyler["homework"]
-print tyler["quizzes"]
-print tyler["tests"]
+for student in students:
+    print student["name"]
+    print student["homework"]
+    print student["quizzes"] 
+    print student["tests"]
